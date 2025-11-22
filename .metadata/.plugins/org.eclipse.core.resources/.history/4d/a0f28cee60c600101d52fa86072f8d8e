@@ -1,0 +1,5 @@
+package app.infrastructure.controller;
+
+public class IntelligenceController {
+
+}

@@ -1,0 +1,37 @@
+package app.infrastructure.repository.jpa;
+
+import app.domain.model.Pilar;
+import app.domain.repository.PilarRepository;
+import app.infrastructure.entity.PilarEntity;
+import org.springframework.stereotype.Component;
+
+
+@Component
+public class PilarRepositoryAdapter implements PilarRepository {
+	
+	private final PilarRepository jpa;
+	
+	public PilarRepositoryAdapter(PilarJpaRepository jpa) {
+        this.jpa = jpa;
+		
+	}
+	
+	@Override
+	Public optional<Pilar> findById(Long id){
+		return jpa.findByid(id).map(this::toDomain);
+	}
+	
+	@Override
+	public Pilar save(Pilar p) {
+		PilarEntity entity = toEntity(p);
+		return toDomain(jpa.save(entity));
+	}
+	
+	private Pilar toDomain(PilarEntity e) {
+		Pilar p = new Pilar();
+		p.setid(e.getid());
+		p.setname(e.getname());
+		p.setposx(e.getposx());
+		p.set
+	}
+}

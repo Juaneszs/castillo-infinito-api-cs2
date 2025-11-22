@@ -1,0 +1,9 @@
+package app.application.Usecase;
+import app.domain.model.Pilar;
+import app.domain.repository.PilarRepository;
+
+
+public class FindPilarUsevcase {
+	
+
+}

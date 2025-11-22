@@ -1,0 +1,56 @@
+package app.infrastructure.entity;
+
+import jakarta.persistence.*;
+@Entity
+@Table(name = "pilares")
+
+
+public class PilarEntity {
+	
+	@Id
+	private Long id;
+	
+	private String name;
+	private double posx;
+	private double posy;
+	private String status;
+	
+	public Long getid() {
+		return id;
+	}
+	
+	public void setid(Long id){
+		this.id = id;
+	}
+	
+	public String getname(){
+		return name;	
+	}
+
+	public void setname(String name) {
+		this.name = name;
+	}
+	
+	public double getposx() {
+		return posx;
+		
+	}
+	 public void setposx(double posx) {
+		 this.posx = posx;
+	 }
+	 public double getposy() {
+		 return posy;
+	 }
+	 public void setposy(double posy) {
+		 this.posy = posy;
+	 }
+	 
+	 public String getestado() {
+		 return status;
+	 }
+	 public void setestado(String estado) {
+		 this.status = estado;
+	 }
+	
+
+}

@@ -1,0 +1,5 @@
+package app.infrastructure.repository.jpa;
+
+public class PilarRepositoryAdapter {
+
+}

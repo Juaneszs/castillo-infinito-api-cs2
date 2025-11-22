@@ -1,0 +1,5 @@
+package app.infrastructure.entity;
+
+public class PilarEntity {
+
+}

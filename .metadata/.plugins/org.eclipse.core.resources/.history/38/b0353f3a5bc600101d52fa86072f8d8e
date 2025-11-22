@@ -1,0 +1,9 @@
+package app.domain.repository;
+import app.domain.model.Pilar;
+import java.util.Optional;
+
+public interface PilarRepository {
+	Optional<Pilar> findByid(Long id);
+	Pilar Save(Pilar Pilar);
+
+}

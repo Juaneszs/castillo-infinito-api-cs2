@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="app.domain.model.Pilar"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+    <fullyQualifiedTypeName name="app.infrastructure.entity.PilarEntity"/>
+    <fullyQualifiedTypeName name="app.application.usecase.FindPilarUsecase"/>
+    <fullyQualifiedTypeName name="app.domain.repository.PilarRepository"/>
+    <fullyQualifiedTypeName name="app.infrastructure.controller.dto.updatepilarpositionrequest"/>
+    <fullyQualifiedTypeName name="app.application.dto.TriangulationResponse"/>
+    <fullyQualifiedTypeName name="app.application.usecase.UpdatePilarPositionUseCase"/>
+    <fullyQualifiedTypeName name="app.application.usecase.TriangulationCalculateUseCase"/>
+</qualifiedTypeNameHistroy>

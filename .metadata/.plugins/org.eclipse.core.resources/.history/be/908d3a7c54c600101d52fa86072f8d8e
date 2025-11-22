@@ -1,0 +1,10 @@
+package app.infrastructure.controller.dto;
+
+public class updatepilarpositionrequest {
+	
+	public double posx;
+	public double posy;
+	public String status;
+	
+
+}
